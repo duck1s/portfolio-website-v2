@@ -1,0 +1,59 @@
+@import "../abstracts/variables";
+@import "../abstracts/functions";
+@import "../abstracts/mixins";
+
+.footer {
+	&top {
+		display: flex;
+		gap: 10rem;
+		padding: 6.4rem 0;
+	}
+
+	&bottom {
+		border-top: 1px solid #aaa;
+		padding: 3.2rem 0;
+
+		&__text {
+			font-size: 1.28rem;
+		}
+	}
+}
+
+.contact {
+	&__heading {
+		margin-bottom: 0.8rem;
+	}
+
+	&__list {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 0.8rem;
+	}
+}
+
+.navigation {
+	&__heading {
+		margin-bottom: 0.8rem;
+	}
+
+	&__list {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 0.8rem;
+	}
+}
+
+.services {
+	&__heading {
+		margin-bottom: 0.8rem;
+	}
+
+	&__list {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 0.8rem;
+	}
+}

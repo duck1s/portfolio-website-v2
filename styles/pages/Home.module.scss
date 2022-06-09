@@ -12,7 +12,7 @@
 	display: flex;
 	justify-content: center;
 	gap: 1.6rem;
-	min-height: $header-main-height;
+	min-height: $rest-min-height;
 	flex-direction: column;
 
 	&__heading {
@@ -32,6 +32,6 @@
 	width: 50%;
 	display: flex;
 	align-items: center;
-	min-height: $header-main-height;
+	min-height: $rest-min-height;
 	justify-content: flex-end;
 }

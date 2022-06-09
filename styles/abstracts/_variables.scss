@@ -7,4 +7,4 @@ $light-gray: #eee;
 // Other
 $page-padding: 10vw;
 $navigation-height: 10rem;
-$header-main-height: calc(100vh - #{$navigation-height});
+$rest-min-height: calc(100vh - #{$navigation-height});
