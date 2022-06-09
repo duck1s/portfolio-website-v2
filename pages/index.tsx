@@ -1,6 +1,8 @@
+// Imports
 import type { NextPage } from "next"
 import styles from "../styles/pages/Home.module.scss"
 
+// Page
 const Home: NextPage = () => {
 	return (
 		<>
