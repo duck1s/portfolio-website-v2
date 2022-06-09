@@ -2,6 +2,11 @@
 @import "../abstracts/functions";
 @import "../abstracts/mixins";
 
+.main {
+	@include page-padding;
+	min-height: $rest-min-height;
+}
+
 .footer {
 	@include page-padding;
 }
