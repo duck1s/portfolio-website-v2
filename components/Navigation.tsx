@@ -4,6 +4,7 @@ import { useRouter } from "next/router"
 
 export default function Navigation() {
 	const router = useRouter()
+
 	return (
 		<>
 			<nav className={styles.headernavigation}>
@@ -30,7 +31,7 @@ export default function Navigation() {
 						</Link>
 					</li>
 				</ul>
-				<button type="button" onClick={() => router.push("/contact")}>
+				<button className={styles.headernavigation__button} type="button" onClick={() => router.push("/contact")}>
 					Contact
 				</button>
 			</nav>

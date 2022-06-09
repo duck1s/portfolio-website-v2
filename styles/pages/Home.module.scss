@@ -1,0 +1,37 @@
+@import "../abstracts/variables";
+@import "../abstracts/functions";
+@import "../abstracts/mixins";
+
+.home {
+	display: flex;
+	@include page-padding;
+}
+
+.homeleft {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	gap: 1.6rem;
+	min-height: $header-main-height;
+	flex-direction: column;
+
+	&__heading {
+	}
+
+	&__job {
+		font-weight: normal;
+	}
+
+	&__about {
+		width: fit-content;
+		margin-top: 1.6rem;
+	}
+}
+
+.homeright {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	min-height: $header-main-height;
+	justify-content: flex-end;
+}
