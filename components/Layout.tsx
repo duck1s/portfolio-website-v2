@@ -1,6 +1,7 @@
 // Imports
 import Head from "next/head"
 import styles from "../styles/components/Layout.module.scss"
+import Navigation from "./Navigation"
 
 // Props
 type LayoutProps = {
@@ -14,7 +15,9 @@ export default function Layout({ children }: LayoutProps) {
 			<Head>
 				<title>Joeri Breedveld</title>
 			</Head>
-			<header className={styles.header}>Test</header>
+			<header className={styles.header}>
+				<Navigation />
+			</header>
 			<main className={styles.main}>{children}</main>
 			<footer className={styles.footer}></footer>
 		</>
