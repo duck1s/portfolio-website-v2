@@ -12,22 +12,22 @@ export default function Footer() {
 					<h4 className={styles.contact__heading}>Contact</h4>
 					<ul className={styles.contact__list}>
 						<li className={styles.contact__listitem}>
-							<a className={styles.contact__link} href="https://www.linkedin.com/in/joeribreedveld/" target="_blank">
+							<a className={styles.contact__link} href="https://www.linkedin.com/in/joeribreedveld/" target="_blank" rel="noreferrer">
 								Linkedin
 							</a>
 						</li>
 						<li className={styles.contact__listitem}>
-							<a className={styles.contact__link} href="https://github.com/duck1s" target="_blank">
+							<a className={styles.contact__link} href="https://github.com/duck1s" target="_blank" rel="noreferrer">
 								GitHub
 							</a>
 						</li>
 						<li className={styles.contact__listitem}>
-							<a className={styles.contact__link} href="mailto:joeri.breedveld123@gmail.com" target="_blank">
+							<a className={styles.contact__link} href="mailto:joeri.breedveld123@gmail.com" target="_blank" rel="noreferrer">
 								Email
 							</a>
 						</li>
 						<li className={styles.contact__listitem}>
-							<a className={styles.contact__link} href="https://www.instagram.com/joeri.bv/" target="_blank">
+							<a className={styles.contact__link} href="https://www.instagram.com/joeri.bv/" target="_blank" rel="noreferrer">
 								Instagram
 							</a>
 						</li>
