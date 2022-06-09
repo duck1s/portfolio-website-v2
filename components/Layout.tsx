@@ -2,6 +2,7 @@
 import Head from "next/head"
 import styles from "../styles/components/Layout.module.scss"
 import Navigation from "./Navigation"
+import Footer from "./Footer"
 
 // Props
 type LayoutProps = {
@@ -19,7 +20,9 @@ export default function Layout({ children }: LayoutProps) {
 				<Navigation />
 			</header>
 			<main className={styles.main}>{children}</main>
-			<footer className={styles.footer}></footer>
+			<footer className={styles.footer}>
+				<Footer />
+			</footer>
 		</>
 	)
 }
