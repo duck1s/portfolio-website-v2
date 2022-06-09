@@ -1,15 +1,15 @@
 @mixin header-nav-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 @mixin page-padding {
-    padding: 0vh $page-padding;
+	padding: $vert-padding $page-padding;
 }
 
 @mixin center-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
