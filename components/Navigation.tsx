@@ -30,7 +30,7 @@ export default function Navigation() {
 						</Link>
 					</li>
 				</ul>
-				<button type="button" onClick={() => router.push("/contact")}>
+				<button className={styles.headernavigation__button} type="button" onClick={() => router.push("/contact")}>
 					Contact
 				</button>
 			</nav>
