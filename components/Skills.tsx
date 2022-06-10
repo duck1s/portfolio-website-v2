@@ -14,10 +14,10 @@ export default function Skills() {
 		console.log(skill[0].img)
 
 		return (
-			<li className={styles.skills__listitem}>
+			<li key={skill[0].id} className={styles.skills__listitem}>
 				<div className={styles.skills__imagewidget}>
 					<div className={styles.skills__imagecontainer}>
-						<Image className={styles.skills__img} key={skill[0].id} src={skill[0].img} layout="fill" objectFit="contain"></Image>
+						<Image className={styles.skills__img} src={skill[0].img} layout="fill" objectFit="contain"></Image>
 					</div>
 				</div>
 				<p className={styles.skills__text}>{skill[0].name}</p>
