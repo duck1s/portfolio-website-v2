@@ -1,0 +1,44 @@
+@import "../abstracts/variables";
+@import "../abstracts/functions";
+@import "../abstracts/mixins";
+
+.skills {
+	&__list {
+		list-style: none;
+		display: flex;
+		gap: 3.2rem;
+		flex-wrap: wrap;
+	}
+
+	&__listitem {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 1.6rem;
+	}
+
+	&__imagewidget {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 9rem;
+		width: 9rem;
+		background-color: $light-gray;
+		border-radius: 50%;
+	}
+
+	&__imagecontainer {
+		position: relative;
+		height: 4.5rem;
+		width: 4.5rem;
+	}
+
+	&__text {
+	}
+
+	&__img {
+		width: 9rem;
+		height: auto;
+	}
+}

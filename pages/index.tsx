@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 					</button>
 				</section>
 				<section className={styles.homeright}>
-					<Image className={styles.homeright__img} src={img} height={500} />
+					<Image className={styles.homeright__img} src={"/assets/undraw-pc.svg"} width={500} height={400} />
 				</section>
 			</section>
 		</>

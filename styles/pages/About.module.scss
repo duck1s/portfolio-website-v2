@@ -1,0 +1,29 @@
+.about {
+	display: flex;
+}
+
+.aboutleft {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 6.4rem;
+
+	&__heading {
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 1.6rem;
+	}
+}
+
+.aboutright {
+	padding-left: 10vw;
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}
