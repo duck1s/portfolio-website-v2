@@ -1,0 +1,20 @@
+.projects {
+	&__heading {
+	}
+
+	&__content {
+		display: flex;
+		gap: 6.4rem;
+	}
+}
+
+.projectsleft {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+
+.projectsright {
+	width: 65%;
+}

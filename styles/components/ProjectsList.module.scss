@@ -1,0 +1,58 @@
+@import "../abstracts/variables";
+@import "../abstracts/functions";
+@import "../abstracts/mixins";
+
+.projects {
+	&__list {
+		list-style: none;
+		display: flex;
+		gap: 3.2rem;
+		flex-wrap: wrap;
+	}
+
+	&__listitem {
+		display: flex;
+		flex-wrap: wrap;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		padding: 1.6rem;
+		border-radius: 0.8rem;
+		flex-grow: 1;
+		flex-shrink: 1;
+		width: 20vw;
+		min-width: 40%;
+		max-width: 100%;
+		min-height: 30vh;
+		gap: 1.6rem;
+	}
+
+	&__imagecontainer {
+		position: relative;
+		width: 100%;
+		min-height: 30vh;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	}
+
+	&__textcontainer {
+	}
+
+	&__img {
+		border-radius: 0.8rem;
+	}
+
+	&__heading {
+		font-size: 1.28rem;
+		font-weight: bold;
+	}
+
+	&__text {
+		font-size: 1.28rem;
+	}
+
+	&__iconcontainer {
+		display: flex;
+		gap: 1.6rem;
+		width: 100%;
+		justify-content: flex-end;
+		align-items: center;
+	}
+}

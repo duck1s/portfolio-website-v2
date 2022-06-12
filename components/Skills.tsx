@@ -1,5 +1,4 @@
 // Imports
-import Link from "next/link"
 import styles from "../styles/components/Skills.module.scss"
 import Image from "next/image"
 
@@ -8,7 +7,7 @@ import skills from "../public/assets/json/skills.json"
 
 // Page
 export default function Skills() {
-	const list = skills.map((skill) => {
+	const skillList = skills.map((skill) => {
 		console.log(skill[0].id)
 		console.log(skill[0].name)
 		console.log(skill[0].img)
@@ -28,7 +27,7 @@ export default function Skills() {
 	return (
 		<>
 			<h3 className={styles.skills__heading}>Skills</h3>
-			<ul className={styles.skills__list}>{list}</ul>
+			<ul className={styles.skills__list}>{skillList}</ul>
 		</>
 	)
 }
