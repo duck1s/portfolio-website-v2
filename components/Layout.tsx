@@ -14,6 +14,8 @@ export default function Layout({ children }: LayoutProps) {
 	return (
 		<>
 			<Head>
+				<meta charSet="UTF-8" key="charset" />
+				<meta name="viewport" content="width=device-width,initial-scale=1" key="viewport" />
 				<title>Joeri Breedveld</title>
 			</Head>
 			<header className={styles.header}>
