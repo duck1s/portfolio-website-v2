@@ -5,6 +5,7 @@
 .main {
 	@include page-padding;
 	min-height: $rest-min-height;
+	width: 100%;
 }
 
 .footer {
