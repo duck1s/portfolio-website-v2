@@ -1,9 +1,10 @@
 .about {
 	display: flex;
+	gap: 6.4rem;
 }
 
 .aboutleft {
-	width: 50%;
+	width: 60%;
 	display: flex;
 	flex-direction: column;
 	gap: 6.4rem;
@@ -19,7 +20,7 @@
 }
 
 .aboutright {
-	padding-left: 6.4rem;
+	width: 40%;
 }
 
 .skills {
