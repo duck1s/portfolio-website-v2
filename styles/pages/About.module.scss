@@ -28,3 +28,17 @@
 	flex-direction: column;
 	gap: 1.6rem;
 }
+
+@media screen and (max-width: 768px) {
+	.about {
+		flex-direction: column;
+
+		&left {
+			width: 100%;
+		}
+
+		&right {
+			width: 100%;
+		}
+	}
+}

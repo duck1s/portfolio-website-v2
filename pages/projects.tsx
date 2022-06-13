@@ -9,15 +9,13 @@ const Projects: NextPage = () => {
 	return (
 		<>
 			<section className={styles.projects}>
-				<div className={styles.projects__content}>
-					<aside className={styles.projectsleft}>
-						<h2 className={styles.projects__heading}>Projects</h2>
-						<Image className={styles.projectsleft__img} src={"/assets/undraw-projects.svg"} width={500} height={400} />
-					</aside>
-					<section className={styles.projectsright}>
-						<ProjectsList />
-					</section>
-				</div>
+				<aside className={styles.projectsleft}>
+					<h2 className={styles.projects__heading}>Projects</h2>
+					<Image className={styles.projectsleft__img} src={"/assets/undraw-projects.svg"} width={500} height={400} />
+				</aside>
+				<section className={styles.projectsright}>
+					<ProjectsList />
+				</section>
 			</section>
 		</>
 	)

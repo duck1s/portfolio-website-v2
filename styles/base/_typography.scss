@@ -44,3 +44,9 @@ a {
 button {
 	font-size: 1.6rem;
 }
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 4.8rem;
+	}
+}
