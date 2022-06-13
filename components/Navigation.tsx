@@ -8,7 +8,9 @@ export default function Navigation() {
 	return (
 		<>
 			<nav className={styles.headernavigation}>
-				<h3 className={styles.headernavigation__heading}>Joeri Breedveld</h3>
+				<h3 onClick={() => router.push("/")} className={styles.headernavigation__heading}>
+					Joeri Breedveld
+				</h3>
 				<ul className={styles.headernavigation__list}>
 					<li className={styles.headernavigation__listitem}>
 						<Link href="/">
