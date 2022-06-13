@@ -10,3 +10,7 @@ $navigation-height: 10rem;
 $rest-min-height: calc(100vh - #{$navigation-height});
 $vert-padding: 3.2rem;
 $font: "Poppins", sans-serif;
+
+@media screen and (max-width: 768px) {
+	$page-padding: 0;
+}

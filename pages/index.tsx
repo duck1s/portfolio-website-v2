@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 			<section className={styles.home}>
 				<section className={styles.homeleft}>
 					<h1 className={styles.homeleft__heading}>Joeri Breedveld</h1>
-					<h2 className={styles.homeleft__job}>Full-stack Developer</h2>
+					<h2 className={styles.homeleft__job}>Full Stack Developer</h2>
 					<button className={styles.homeleft__about} type="button" onClick={() => router.push("/about")}>
 						About Me
 					</button>
