@@ -1,0 +1,30 @@
+.contact {
+	&__list {
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		gap: 1.6rem;
+	}
+
+	&__listitem {
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		width: 20vw;
+		display: flex;
+		align-items: center;
+		padding: 1.6rem;
+		gap: 3.2rem;
+		border-radius: 0.8rem;
+		transition: all 0.2s;
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.05);
+		}
+	}
+
+	&__imagecontainer {
+		width: 90px;
+		height: 90px;
+		position: relative;
+	}
+}
