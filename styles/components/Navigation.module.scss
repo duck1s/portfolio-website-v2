@@ -5,7 +5,7 @@
 .headernavigation {
 	@include header-nav-flex;
 	@include page-padding;
-	height: $navigation-height;
+	min-height: $navigation-height;
 
 	&__list {
 		list-style: none;
@@ -45,5 +45,16 @@
 	&__button {
 		color: $blue;
 		border: 1px solid $blue;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.headernavigation {
+		flex-direction: column;
+		gap: 2.4rem;
+
+		&__button {
+			display: none;
+		}
 	}
 }
