@@ -10,23 +10,35 @@
 	&__list {
 		list-style: none;
 		display: flex;
-		gap: 10rem;
+		gap: 5vw;
+	}
+
+	&__heading {
+		&:hover {
+			cursor: pointer;
+		}
 	}
 
 	&__link {
 		text-decoration: none;
+		transition: all 0.2s ease-in-out;
+		padding: 0.8rem 1.6rem;
+		border-radius: 0.8rem;
 
 		&:hover {
-			text-decoration: underline;
+			background-color: #f4f4f4;
 		}
 	}
 
 	&__activelink {
 		text-decoration: none;
 		color: $blue;
+		transition: all 0.2s ease-in-out;
+		padding: 0.8rem 1.6rem;
+		border-radius: 0.8rem;
 
 		&:hover {
-			text-decoration: underline;
+			background-color: #f4f4f4;
 		}
 	}
 
