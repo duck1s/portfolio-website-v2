@@ -14,7 +14,7 @@ const Contact: NextPage = () => {
 					<ContactList />
 				</section>
 				<aside className={styles.contactright}>
-					<Image className={styles.contactright__img} src={"/assets/undraw-projects.svg"} width={500} height={400} />
+					<Image className={styles.contactright__img} src={"/assets/undraw-contact.svg"} width={600} height={500} />
 				</aside>
 			</section>
 		</>
