@@ -6,6 +6,9 @@
 
 @mixin page-padding {
 	padding: $vert-padding $page-padding;
+	@media screen and (max-width: 768px) {
+		padding: $vert-padding 5vw;
+	}
 }
 
 @mixin center-content {

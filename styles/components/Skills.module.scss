@@ -39,3 +39,16 @@
 		height: auto;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.skills {
+		&__list {
+			gap: 1.6rem;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		&__listitem {
+		}
+	}
+}
