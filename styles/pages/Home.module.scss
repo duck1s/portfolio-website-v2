@@ -34,3 +34,21 @@
 	align-items: center;
 	justify-content: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+	.home {
+		flex-direction: column;
+		gap: 3.2rem;
+	}
+
+	.homeleft {
+		text-align: center;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.homeright {
+		width: 100%;
+	}
+}

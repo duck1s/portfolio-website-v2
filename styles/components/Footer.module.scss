@@ -57,3 +57,14 @@
 		gap: 0.8rem;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.footertop {
+		flex-direction: column;
+		gap: 3.2rem;
+		text-align: center;
+	}
+	.footerbottom {
+		text-align: center;
+	}
+}
